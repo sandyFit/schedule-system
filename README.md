@@ -16,10 +16,10 @@ This API enables a dental studio to manage online appointment bookings efficient
 
 Key features:
 
-- Schedule appointments.
-- Manage doctor availability.
-- Adjust appointment limits based on the doctor's specialization.
-- Send notifications
+    - Schedule appointments.
+    - Manage doctor availability.
+    - Adjust appointment limits based on the doctor's specialization.
+    - Send notifications
 
 ## Installation
 
@@ -43,36 +43,36 @@ Key features:
 1. **Get Available Slots**
 Returns available appointment slots for a specific date.
 
-- Endpoint: /appointments/available
-- Method: GET
-- Params:
-- date (required): The date to check availability (e.g., 2024-10-01).
+    - Endpoint: /appointments/available
+    - Method: GET
+    - Params:
+    - date (required): The date to check availability (e.g., 2024   -10    -01).
 
 2. **Book an Appointment**
 Books an appointment for a patient.
 
-- Endpoint: /appointments/book
+    - Endpoint: /appointments/book
 Method: POST
-- Params:
-- patient_name (required): Name of the patient.
-- doctor_id (required): ID of the doctor.
-- appointment_time (required): Desired time slot.
+    - Params:
+    - patient_name (required): Name of the patient.
+    - doctor_id (required): ID of the doctor.
+    - appointment_time (required): Desired time slot.
 
 ### Advanced Usage
-- Adjust Doctor Workload: Modify the number of patients a doctor can see based on their specialty.
-- Notification System: Notify patients of upcoming appointments via email or SMS.
+    - Adjust Doctor Workload: Modify the number of patients a doctor can see based on their specialty.
+    - Notification System: Notify patients of upcoming appointments via email or SMS.
 
 ## Configuration
 To configure the system, edit the .env file with the following variables:
 
-- PORT: The port the server should run on (default: 3000).
-- DATABASE_URL: The URL for connecting to the PostgreSQL database.
+    - PORT: The port the server should run on (default: 3000).
+    - DATABASE_URL: The URL for connecting to the PostgreSQL database.
 
 ## FAQ
 How many appointments can a doctor have in a day?
-- By default, doctors can see up to 12 patients in an 8-hour workday, but this can be adjusted.
+    - By default, doctors can see up to 12 patients in an 8 -hour workday, but this can be adjusted.
 Can patients cancel or reschedule appointments?
-- Yes, endpoints are available for both cancellation and rescheduling.
+    - Yes, endpoints are available for both cancellation and rescheduling.
 
 ## License
 This project is licensed under the MIT License.
