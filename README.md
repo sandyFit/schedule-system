@@ -16,10 +16,10 @@ This API enables a dental studio to manage online appointment bookings efficient
 
 Key features:
 
-    - Schedule appointments.
-    - Manage doctor availability.
-    - Adjust appointment limits based on the doctor's specialization.
-    - Send notifications
+- Schedule appointments.
+- Manage doctor availability.
+- Adjust appointment limits based on the doctor's specialization.
+- Send notifications
 
 ## Installation
 
@@ -59,14 +59,14 @@ Method: POST
     - appointment_time (required): Desired time slot.
 
 ### Advanced Usage
-    - Adjust Doctor Workload: Modify the number of patients a doctor can see based on their specialty.
-    - Notification System: Notify patients of upcoming appointments via email or SMS.
+- Adjust Doctor Workload: Modify the number of patients a doctor can see based on their specialty.
+- Notification System: Notify patients of upcoming appointments via email or SMS.
 
 ## Configuration
 To configure the system, edit the .env file with the following variables:
 
-    - PORT: The port the server should run on (default: 3000).
-    - DATABASE_URL: The URL for connecting to the PostgreSQL database.
+- PORT: The port the server should run on (default: 3000).
+- DATABASE_URL: The URL for connecting to the PostgreSQL database.
 
 ## FAQ
 How many appointments can a doctor have in a day?
