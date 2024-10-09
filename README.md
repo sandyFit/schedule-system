@@ -70,9 +70,9 @@ To configure the system, edit the .env file with the following variables:
 
 ## FAQ
 How many appointments can a doctor have in a day?
-    - By default, doctors can see up to 12 patients in an 8 -hour workday, but this can be adjusted.
+- By default, doctors can see up to 12 patients in an 8 -hour workday, but this can be adjusted.
 Can patients cancel or reschedule appointments?
-    - Yes, endpoints are available for both cancellation and rescheduling.
+- Yes, endpoints are available for both cancellation and rescheduling.
 
 ## License
 This project is licensed under the MIT License.
